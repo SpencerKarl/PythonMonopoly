@@ -18,9 +18,9 @@ class Player:
         print("Player Cash:", self.playerCash)
 
 # Function to display initial splash screen
-def SplashScreen(playerOne):
+def SplashScreen(player):
     os.system('cls')
-    print("Welcome to Python Monopoly,",playerOne.playerName + "!\n"
+    print("Welcome to Python Monopoly,",player.playerName + "!\n"
           "This is a new line.")
     
 # Main function
